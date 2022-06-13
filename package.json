@@ -1,0 +1,42 @@
+{
+  "name": "travel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build-prod": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinaKim77/Travel-App.git"
+  },
+  "author": "Jina Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinaKim77/Travel-App/issues"
+  },
+  "homepage": "https://github.com/JinaKim77/Travel-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cors": "^2.8.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "mini-css-extract-plugin": "^2.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.73.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
